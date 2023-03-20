@@ -6,8 +6,8 @@ from sklearn.model_selection import train_test_split
 
 
 #specific negative keyword can be used, otherwise we use random pictures
-directory, folder_name = download_prepr(search_term="beautiful woman", negative_word="fat woman", data_range=5)
-images, labels  = convert_training_data(directory)
+directory, folder_name = download_prepr(search_term="beautiful woman", negative_word="ugly fat woman", data_range=5)
+images, labels = convert_training_data(directory)
 
 
 # Define the input shape
